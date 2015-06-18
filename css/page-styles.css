@@ -1,0 +1,118 @@
+﻿html {
+    height: 100%;
+}
+
+body {
+    background: linear-gradient(to bottom, rgba(234,185,45,1) 0%,rgba(199,152,16,1) 100%); /* W3C */
+    color: #000;
+    margin: 0px;
+    height: 100%;
+    font-family: Tahoma, Verdana, sans-serif;
+}
+
+
+header, article {
+    display: block;
+}
+
+
+header {
+    background: rgba(255,255,255,0.8);
+    padding-bottom: 2em;
+    padding-left: 0.5em;
+    font-family: 'archisticonormal';
+    color: rgba(189, 166, 93, 0.72);
+}
+
+    header h1 {
+        margin-top: 0px;
+        padding-top: 0.5em;
+        font-size: 5em;
+        line-height: 0;
+        letter-spacing: 8px;
+    }
+
+    header p {
+        letter-spacing: 4px;
+        margin-top: -1em;
+        padding-left: 500px;
+        letter-spacing: 8px;
+    }
+
+    header + article {
+        margin-top: -1em;
+    }
+
+article {
+    border: 1px solid rgba(255,255,255,0.8);
+    background: #fff;
+    margin: 1em 2em;
+    padding: 0.5em;
+    border-radius: 3px;
+}
+
+   
+
+    article > h2 {
+        font-family: autour_oneregular;
+        margin-top: 0px;
+        color: #d8d2b1;
+    }
+
+    article p {
+        font-size: 0.85em;
+    }
+
+     article address {
+        text-align: right;
+        font-style: normal;
+        font-size: 0.65em;
+    }
+
+
+.three-col {
+    -moz-column-count: 3;
+    -moz-column-gap: 20px;
+    -webkit-column-count: 3;
+    -webkit-column-gap: 20px;
+    column-count: 3;
+    column-gap: 20px;
+
+    -moz-column-rule-color: #ccc;
+    -moz-column-rule-style: solid;
+    -moz-column-rule-width: 1px;
+    
+    -webkit-column-rule-color: #ccc;
+    -webkit-column-rule-style: solid;
+    -webkit-column-rule-width: 1px;
+
+    column-rule-color: #ccc;
+    column-rule-style: solid;
+    column-rule-width: 1px;
+}
+
+.two-col {
+    -moz-column-count: 2;
+    -moz-column-gap: 20px;
+    
+    -webkit-column-count: 2;
+    -webkit-column-gap: 20px;
+    
+    -moz-column-rule-color: #ccc;
+    -moz-column-rule-style: solid;
+    -moz-column-rule-width: 1px;
+    
+    -webkit-column-rule-color: #ccc;
+    -webkit-column-rule-style: solid;
+    -webkit-column-rule-width: 1px;
+}
+
+
+    .three-col p:first-of-type, .two-col p:first-of-type {
+        margin-top: 0px;
+    }
+
+#wrapper {
+    margin: 0 auto 0 auto;
+    background: none;
+}
